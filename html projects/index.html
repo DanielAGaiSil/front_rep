@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <title> my first website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>This is my first website</h1>
-    <hr>
-    <a href="page2.html" target="_self" title="This takes you to page2">
-        Google
-    </a>
-    <h1>this is what i wrote</h1>
-    <h2>this is something else</h2>
-    <p>this a paragraph</p>
-    <br>
-    <p>i think br is a space between paragraphs</p>
-</body>
 
+    <header>
+        <h1><strong>Welcome to My Website</strong></h1>
+    </header>
+
+    <nav>
+        <a href="#content">Jump to Content</a> |
+        <a href="#image">Jump to Image</a> |
+        <a href="page2.html">Go to Page 2</a>
+    </nav>
+
+    <section id="content">
+        <h2>This is the content section</h2>
+        <p>This paragraph contains some content that you can navigate to by clicking "Jump to Content".</p>
+    </section>
+
+    <section id="image">
+        <h3>Here is the Image Section</h3>
+        <img src="images/AI.jpg" alt="A modern AI robot head" height="200">
+    </section>
+
+</body>
 </html>
