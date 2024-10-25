@@ -3,10 +3,12 @@ body{
     background-color: #5d6ecce0;
     margin: 0;
     padding: 20px;
+    ;
 }
 
 h1, h2, h3 {
     color: aliceblue;
+    font-size: large;
 }
 
 a{
@@ -30,7 +32,17 @@ footer{
 
 p{
     color: aliceblue;
+    font-size: large;
 }
 li{
     color: aliceblue;
+    font-size: large;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    font-size: large;
 }

@@ -5,14 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is an extension of my first website</title>
+    <title>Second Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <h1>These are the things I learned from a few hours of learning HTML</h1>
     <hr>
-    <a href="https://www.youtube.com" target="_blank" title="This takes you to YouTube">YouTube</a>
+
+    <nav>
+    <a href="#about-me"> Go to about me section</a>
+    <a href="#display"> Go to my pictures</a>
+    </nav>
+
     <h2><strong>Key things I learned</strong></h2>
 <ul>
     <li>Basic HTML structure</li>
@@ -22,9 +27,38 @@
     
 <p>There will be more content added to this page when I learn more things, expect design changes and more!</p>
 
-    <footer>
-        <p>&copy; 2024 My First Website</p>
-    </footer>
+<h2 id="about-me">
+    <strong>About me</strong>
+</h2>
+
+<p> Hey!, I'm Daniel, a beginner-level developer. I was originally on a path to focus only on back-end development, but after a friend introduced me to html and css I decided to also start developing my front-end abilities</p>
+<p><strong>Here are a few things to learn about me:</strong></p>
+<ul>
+    <li>I live in Brazil.</li>
+    <li>So far, my favourite programming language is python.</li>
+    <li>When I'm not coding (and coding) I'm probably listening to music.</li>
+    <li>I'd consider myself really weird to be honest, but at the end of the day I'm chill.</li>
+</ul>
+
+<section class="display" id="display">
+    <h3><strong><center>Here's a picture of me!</center></strong></h3>
+
+<div class="image-container">
+    <img src="/html projects/images/Daniel.jpg" alt="A picture of me, Daniel" title="My picture!">
+</div>
+</section>
+
+<h3>Here are my socials, thank you in advance if you followed me :D
+    <ul>
+    <a href="https://www.linkedin.com/in/daniel-angelus/">Linkedin</a>
+    <br>
+    <a href="https://www.instagram.com/danielgaisilva19/">Instagram</a>
+    </ul>
+</h3>
+
+<footer>
+    <p>&copy; 2024 My First Website</p>
+</footer>
 </body>
 
 </html>
