@@ -1,14 +1,15 @@
-body{
+html, body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #5d6ecce0;
+    background-color: #3412f3;
     margin: 0;
-    padding: 20px;
-    ;
+    padding: 0;
+    padding-top: 10px;
 }
 
 h1, h2, h3 {
     color: aliceblue;
     font-size: large;
+    padding: 20px;
 }
 
 a{
@@ -33,6 +34,7 @@ footer{
 p{
     color: aliceblue;
     font-size: large;
+    padding: 20px;
 }
 li{
     color: aliceblue;
@@ -45,4 +47,22 @@ li{
 }
 .display{
     font-size: large;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5c8ab89a;
+    text-align: center;
+    z-index: 1000;
+
+}
+.navbar a{
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: blueviolet;
 }
