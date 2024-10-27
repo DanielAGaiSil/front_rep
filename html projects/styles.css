@@ -54,8 +54,9 @@ li{
     width: 100%;
     background-color: #5c8ab89a;
     text-align: center;
+    font-size: large;
     z-index: 1000;
-
+    height: 30px;
 }
 .navbar a{
     color: aliceblue;
